@@ -226,6 +226,7 @@
         }
 
         footer .linha2{
+            color: white;
             height:35px;
             display: flex;
             justify-content: center;
@@ -300,4 +301,14 @@
         font-size:17px;
     }
 
+    /*Footer*/
+
+    footer .linha1{
+        flex-direction:column;
+    }
+
+    footer .endereco{
+        width: 95%;
+        margin-bottom:20px;
+    }
 }
